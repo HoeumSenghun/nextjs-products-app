@@ -1,10 +1,11 @@
-import { Button } from "@heroui/react";
+'use client';
 
 
-export default function Home() {
+const Home = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      
-    </h1>
+    <>
+      Home
+    </>
   );
 }
+export default Home

@@ -1,15 +1,17 @@
 
 import "@/styles/globals.css";
-import Product from "./product/page";
-import MainNavbar from "@/components/main-Navbar";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html>
       <body>
-        <Product/>
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
