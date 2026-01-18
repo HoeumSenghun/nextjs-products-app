@@ -34,7 +34,7 @@ const Product = () => {
                         <img 
                             src={product.place_image} 
                             alt={product.place_name} 
-                            className="w-full h-48 object-cover rounded-lg mb-4"
+                            className="w-full h-80 object-cover rounded-lg mb-4"
                         />
                         <h2 className="text-2xl font-semibold mb-2">{product.place_name}</h2>
                         <p className="text-gray-600 mb-4">{product.description}</p>
